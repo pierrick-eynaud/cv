@@ -1,0 +1,332 @@
+@viewport { 
+    width: device-width; 
+    zoom: 1;
+
+}
+
+body
+{	
+	background-color: rgb(241,237,234);
+}
+
+header
+{
+}
+
+footer
+{
+margin-left: 50px;
+margin-bottom: 50px;
+}
+
+.dur
+{
+font-weight: bold;	
+}
+
+.ent
+{
+text-decoration: underline;
+color: grey;
+}
+
+#chef
+{
+margin-top: -20px;}
+
+#menu
+{
+padding:0 0 0 0;
+margin: 0 0 0 0;
+ }
+
+ul#menu li { 
+display: inline-block;
+border: none;
+margin-left: -32px;
+margin-top: -12px;
+}
+
+#suis
+{
+	text-align: center;
+}
+
+
+h1
+{
+text-align: center;
+font-size:56px;
+margin-top: -60px;
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'Tangerine', serif;
+	font-size:54px;
+	margin-top: 100px;
+}
+
+table
+{
+display: block;
+margin: 0 auto;
+}
+
+table th
+{
+text-align: center;	
+}
+
+table td
+{
+padding-left: 10px;	
+}
+
+#me
+{
+font-family: 'Tangerine', serif;
+font-size: 40px;
+margin-top: -100px;
+}	
+
+
+#moi
+{
+-webkit-transform: rotate(80deg);
+-moz-transform: rotate(!80deg);
+-o-transform: rotate(80deg);
+transform: rotate(80deg);
+margin-top: 150px;
+margin-bottom: 150px;
+float: left;
+border: black solid 3px;
+}
+
+#tem
+{
+border: black solid 2px;
+display: block;
+margin: 0 auto;
+margin-top: -40px;	
+}
+
+#sg
+{
+border: black solid 2px;
+margin-top: 5px;	
+}
+
+#obs
+{
+border: black solid 2px;
+margin-top: 5px;	
+}
+
+#orange
+{
+border: black solid 2px;
+margin-top: 5px;	
+}
+
+#pres
+{
+margin-top: 150px;
+margin-bottom: 150px;
+font-family: 'Alegreya', serif;
+}
+
+#contact
+{
+position: fixed;
+top: 0;
+right: 0;
+margin-right: 0px;
+}
+
+#tel
+{
+margin-left: 80px;
+margin-bottom: 60px;
+padding-bottom: 60px;	
+}
+
+#mail
+{
+margin-left: 80px;
+margin-bottom: 60px;	
+padding-bottom: 60px;
+}
+
+#fb
+{
+margin-bottom: 60px;
+margin-left: 80px;
+padding-bottom: 60px;	
+}
+
+#link
+{
+margin-left: 80px;
+}
+
+#facebook
+{
+	border-radius: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#linked
+{
+	border-radius: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+#diplomes 
+{
+display: block;
+margin: 0 auto;
+} 
+
+#haut
+{
+display: block;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+#suisje
+{
+display: block;
+margin: 0 auto;
+}
+
+#compet
+{
+display: block;
+margin: 0 auto;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000;
+	margin: 10px;
+	padding: 10px;
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: none;
+	top: 10px;
+	bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+a:active  {
+	color: inherit;
+	text-decoration: blink;
+	margin: 10px;
+	padding: 10px;
+}  
+
+#ci
+{
+float: left;
+text-align: center;
+margin-top: 150px;	
+}
+
+.internet {
+	font-size: 36px;
+}
+.football {
+	font-size: 72px;
+}
+.cinema {
+	font-size: 36px;
+}
+.nt {
+	font-size: 32px;
+}
+.voyages {
+	font-size: 26px;
+}
+.guitare {
+	font-size: 16px;
+}
+.presse {
+	font-size: 26px;
+}
+
+@media screen and (max-width:800px)
+
+{
+.container {margin-top: -100px;}
+nav {visibility: hidden;}
+#moi {height: 100%; width:100%;}
+#pres {top: auto;}
+h1 {font-size:42px; }
+h2 {font-size:36px; }
+table {height: 100%; width:100%;}
+#contact {visibility: hidden;}
+#tel {visibility: hidden;}
+#mail {visibility: hidden;}
+#fb {visibility: hidden;}	
+#link {visibility: hidden;}
+#diplomes {height: 100%; width:100%;}
+#tem {height: 40%; width:40%;}
+#compet {height: 100%; width:100%;}
+#suisje {height: 50%; width: 50%; display: block; margin: 0 auto;}
+.internet {font-size: 18px;}
+.football {font-size: 36px;}
+.cinema {font-size: 18px;}
+.nt {font-size: 16px;}
+.voyages {font-size: 13px;}
+.guitare {font-size: 8px;}
+.presse {font-size: 13px;}
+#qui {visibility: hidden;}
+}
+
+
+@media screen and (max-width:480px)
+
+{
+.container {margin-top: -500px;}
+nav {visibility: hidden;}
+#pres {top: auto;}
+#moi {height: 30%; width:30%;}
+#me {font-size:23px;}
+h1 {font-size:30px; }
+h2 {font-size:26px; }
+table {height: 100%; width:100%;}
+#contact {visibility: hidden;}
+#tel {visibility: hidden;}
+#mail {visibility: hidden;}
+#fb {visibility: hidden;}	
+#link {visibility: hidden;}
+#diplomes {height: 100%; width:100%;}
+#tem {height: 30%; width:30%; margin-top: 20px;}
+#compet {height: 100%; width:100%; margin-bottom: -120px;}
+#suisje {height: 100%; width:100%; margin-top: 300px; display: block;
+margin: 0 auto;}
+#ci {width: 100%; margin:auto; margin-top: 130px;}
+#qui {visibility: hidden;}
+}
